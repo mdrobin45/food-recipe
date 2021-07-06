@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* Reusable Style */
+.container{
+    width: 90%;
+    margin: auto;
+}
+.flexible{
+    display: flex;
+    align-items: center;
+}
+h1 {
+    font-size: 40px;
+    color: #575757;
+}
+h2 {
+    font-size: 40px;
+    color: #575757;
+}
+h3{
+    font-size: 22px;
+}
+p {
+    line-height: 2;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.btnStyle {
+    border-radius: 50px;
+    padding: 13px 30px;
+    box-shadow: 0px 0px 14px 3px rgb(170 7 107 / 50%);
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(to right, #aa076b, #61045f);
+    display: inline-block;
+    margin: 1rem 0;
+}
+.halfWidth{
+    width: 50%;
+}
+img{
+    width: 90%;
+}
+.wordColor{
+    color: #aa076b;
+}
+.pd-1{
+    padding: 1rem 0;
+}
+section{
+    padding: 5rem 0;
+}
+.sectionBG{
+    background: #E5E5E5;
+}
+/* One Time Use style */
+.headerLeft {
+    padding-right: 200px;
+}
+#aboutSection {
+    background: url(images/about-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem 0;
+}
+.secTopHeader {
+    padding: 0 18rem;
+    text-align: center;
+}
+.recipeBoxItem {
+    background: #fff;
+    margin: 0 2rem;
+    border-radius: 25px;
+    padding: 15px;
+    box-shadow: 0px 0px 18px -4px rgb(0 0 0 / 31%);
+}
+.boxImgSize{
+    width: 100%;
+}
+.rowTopPadding{
+    padding-top:2rem;
+}
+.flower-boxs {
+    width: 25%;
+    text-align: center;
+}
+#followersRow {
+    justify-content: center;
+    padding: 3rem 0;
+    border-radius: 20px;
+    box-shadow: 0px 0px 18px -4px rgb(0 0 0 / 31%);
+}
+.followerHeading {
+    font-size: 40px;
+}
+footer#FootBG {
+    background: #333;
+    padding: 3rem 0;
+    color: #fff;
+    text-align: center;
+}
+.postBox {
+    box-shadow: 0px 0px 18px -4px rgb(0 0 0 / 31%);
+    margin: 0 10px;
+    padding: 15px;
+    border-radius: 20px;
+    background: #fff;
+}
+
+a.btnStyle.readMorebtn {
+    display: block;
+    text-align: center;
+}

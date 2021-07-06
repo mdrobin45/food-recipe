@@ -35,7 +35,7 @@ a{
 .text-left{
     text-align: left;
 }
-.btnStyle {
+.btn-style {
     border-radius: 50px;
     padding: 13px 30px;
     box-shadow: 0px 0px 14px 3px rgb(170 7 107 / 50%);
@@ -45,80 +45,69 @@ a{
     display: inline-block;
     margin: 1rem 0;
 }
-.halfWidth{
+.half-width{
     width: 50%;
 }
 img{
-    width: 90%;
+    width: 100%;
 }
-.wordColor{
+.word-color{
     color: #aa076b;
 }
-.pd-1{
+.vertical-padding-1{
     padding: 1rem 0;
 }
 section{
     padding: 5rem 0;
 }
-.sectionBG{
+.sections-bg{
     background: #E5E5E5;
 }
 /* One Time Use style */
-.headerLeft {
+.left-header {
     padding-right: 200px;
 }
-#aboutSection {
+#about-section {
     background: url(images/about-bg.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 5rem 0;
 }
-.secTopHeader {
+.all-section-title-area {
     padding: 0 18rem;
     text-align: center;
 }
-.recipeBoxItem {
+.three-col-box {
     background: #fff;
-    margin: 0 2rem;
+    margin: 0 12px;
     border-radius: 25px;
     padding: 15px;
     box-shadow: 0px 0px 18px -4px rgb(0 0 0 / 31%);
 }
-.boxImgSize{
-    width: 100%;
-}
-.rowTopPadding{
+.all-row-top-padding{
     padding-top:2rem;
 }
-.flower-boxs {
+.follower-boxs {
     width: 25%;
     text-align: center;
 }
-#followersRow {
+#followers-box-row {
     justify-content: center;
     padding: 3rem 0;
     border-radius: 20px;
     box-shadow: 0px 0px 18px -4px rgb(0 0 0 / 31%);
 }
-.followerHeading {
+.follower-box-heading-text {
     font-size: 40px;
 }
-footer#FootBG {
+#footer-bg {
     background: #333;
     padding: 3rem 0;
     color: #fff;
     text-align: center;
 }
-.postBox {
-    box-shadow: 0px 0px 18px -4px rgb(0 0 0 / 31%);
-    margin: 0 10px;
-    padding: 15px;
-    border-radius: 20px;
-    background: #fff;
-}
-
-a.btnStyle.readMorebtn {
+.read-more-btn {
     display: block;
     text-align: center;
 }

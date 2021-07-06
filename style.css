@@ -2,7 +2,6 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-/* Reusable Style */
 .container{
     width: 90%;
     margin: auto;
@@ -78,17 +77,6 @@ section{
 .sections-bg{
     background: #E5E5E5;
 }
-/* One Time Use style */
-.left-header {
-    padding-right: 200px;
-}
-#about-section {
-    background: url(images/about-bg.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 5rem 0;
-}
 .all-section-title-area {
     padding: 0 18rem;
     text-align: center;
@@ -99,6 +87,16 @@ section{
     border-radius: 25px;
     padding: 15px;
     box-shadow: 0px 0px 18px -4px rgb(0 0 0 / 31%);
+}
+.left-header {
+    padding-right: 200px;
+}
+#about-section {
+    background: url(images/about-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem 0;
 }
 .all-row-top-padding{
     padding-top:2rem;
